@@ -15,7 +15,7 @@ Please select the difficulty level:
 2. Medium (5 chances)
 3. Hard (3 chances)
 """
-random_number = randint(1, 1000)
+random_number = randint(1, 100)
 
 parser_start = subparsers.add_parser("start", help="Start the game")
 args = parser.parse_args()
